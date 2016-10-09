@@ -13,7 +13,7 @@ class prettyBtn: UIButton {
     override func awakeFromNib() {
         layer.cornerRadius = 5.0
         backgroundColor = UIColor(red: 214.0/255.0, green: 241.0/255.0, blue: 255.0/255.0, alpha: 1)
-        setTitleColor(UIColor.blueColor(), forState:.Normal)
+        setTitleColor(UIColor.blue, for:UIControlState())
     
     }
 }

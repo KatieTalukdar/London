@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,48 +16,46 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="london22" translatesAutoresizingMaskIntoConstraints="NO" id="tHC-PB-6If">
-                                <rect key="frame" x="-223" y="0.0" width="823" height="600"/>
-                                <color key="backgroundColor" red="1" green="0.31992728040000001" blue="0.23538800570000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <frame key="frameInset" minX="-223" width="823" height="600"/>
+                                <color key="backgroundColor" red="1" green="0.31992728040000001" blue="0.23538800570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="gEp-o5-GYd">
-                                <rect key="frame" x="20" y="15" width="154" height="75"/>
+                                <frame key="frameInset" minX="20" minY="15" width="153" height="74"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LONDON" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHI-PK-sta">
-                                        <rect key="frame" x="0.0" y="0.0" width="154" height="42"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lovely...." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sf-on-z5L">
-                                        <rect key="frame" x="0.0" y="47" width="72" height="28"/>
                                         <fontDescription key="fontDescription" name="IowanOldStyle-Italic" family="Iowan Old Style" pointSize="20"/>
-                                        <color key="textColor" white="1" alpha="0.63162123226950351" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="0.63162123226950351" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cyl-ze-8MN" customClass="prettyBtn" customModule="London" customModuleProvider="target">
-                                <rect key="frame" x="450" y="534" width="100" height="33"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cyl-ze-8MN" customClass="prettyBtn" customModule="London" customModuleProvider="target">
+                                <frame key="frameInset" minX="450" minY="534" width="100" height="33"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="CQ6-0b-5I8"/>
                                     <constraint firstAttribute="height" constant="33" id="r8K-B0-sa8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <color key="tintColor" red="0.0" green="0.33605553430000001" blue="0.707174411" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.0" green="0.33605553430000001" blue="0.707174411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Photos">
-                                    <color key="titleColor" red="0.0" green="0.33605553430000001" blue="0.707174411" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.33605553430000001" blue="0.707174411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vuZ-Mq-uKZ" kind="show" id="JgQ-5k-1lk"/>
+                                    <segue destination="vuZ-Mq-uKZ" kind="presentation" id="JgQ-5k-1lk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZaS-3L-v6i" customClass="prettyBtn" customModule="London" customModuleProvider="target">
-                                <rect key="frame" x="129" y="531" width="118" height="29"/>
+                                <frame key="frameInset" minX="129" minY="531" width="118" height="29"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="IQu-q2-tU7"/>
                                     <constraint firstAttribute="height" constant="33" id="w7u-8D-VV0"/>
@@ -64,11 +63,11 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="About London"/>
                                 <connections>
-                                    <segue destination="Q4H-4L-H6R" kind="show" id="XO8-cB-LiC"/>
+                                    <segue destination="Q4H-4L-H6R" kind="presentation" id="XO8-cB-LiC"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tHC-PB-6If" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-243" id="8xU-Lz-V6n"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Cyl-ze-8MN" secondAttribute="bottom" constant="33" id="ErL-dl-gPW"/>
@@ -89,12 +88,12 @@
                     <rect key="frame" x="0.0" y="0.0" width="142" height="39"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
-                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="354"/>
+            <point key="canvasLocation" x="431" y="-586"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jKC-8G-cnb">
@@ -105,21 +104,21 @@
                         <viewControllerLayoutGuide type="bottom" id="laQ-hi-h7n"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zaY-To-k5G">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="London Views" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80c-eb-WCn">
-                                <rect key="frame" x="189" y="14" width="210" height="36"/>
+                                <frame key="frameInset" minX="189" minY="14" width="210" height="36"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="210" id="7uO-Tl-zmE"/>
                                     <constraint firstAttribute="height" constant="36" id="Kqe-hh-7xx"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="25"/>
-                                <color key="textColor" red="0.0" green="0.33605553430000001" blue="0.707174411" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.33605553430000001" blue="0.707174411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D9z-QC-7Zw">
-                                <rect key="frame" x="10" y="0.0" width="46" height="30"/>
+                                <frame key="frameInset" minX="10" width="46" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="2ag-kY-mCe"/>
                                     <constraint firstAttribute="width" constant="46" id="M5Y-yu-pRb"/>
@@ -127,73 +126,67 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Ob2-pZ-gKM"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="Ob2-pZ-gKM"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="4wL-CJ-CBL">
-                                <rect key="frame" x="71" y="84" width="390" height="119"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0C4D5BF7000005DC-0-image-m-2_1429464283343" translatesAutoresizingMaskIntoConstraints="NO" id="WOa-dy-ElG">
-                                        <rect key="frame" x="0.0" y="0.0" width="190" height="119"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="119" id="bs0-FG-jrQ"/>
-                                            <constraint firstAttribute="width" constant="190" id="eth-vY-RVT"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="63730-640x360-tower-bridge-cam-640" translatesAutoresizingMaskIntoConstraints="NO" id="xBo-9c-IzA">
-                                        <rect key="frame" x="200" y="0.0" width="190" height="119"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="119" id="cID-D7-ifn"/>
-                                            <constraint firstAttribute="width" constant="190" id="kiB-tF-YW6"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yfI-nG-KTQ">
-                                <rect key="frame" x="91" y="435" width="390" height="119"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="London-95" translatesAutoresizingMaskIntoConstraints="NO" id="BSy-jN-TVz">
-                                        <rect key="frame" x="0.0" y="0.0" width="190" height="119"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="190" id="gwu-5b-U6a"/>
-                                            <constraint firstAttribute="height" constant="119" id="joA-a8-Th6"/>
-                                        </constraints>
-                                    </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="big-ben" translatesAutoresizingMaskIntoConstraints="NO" id="C51-1A-Cra">
-                                        <rect key="frame" x="200" y="0.0" width="190" height="119"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="119" id="FOs-fB-Odo"/>
-                                            <constraint firstAttribute="width" constant="190" id="KL6-OU-iKV"/>
-                                        </constraints>
-                                    </imageView>
-                                </subviews>
-                            </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="london_night_view_shutterstock_86318047.jpg__5175x2446_q85_crop_upscale" translatesAutoresizingMaskIntoConstraints="NO" id="ZgO-Uf-zLz">
-                                <rect key="frame" x="123" y="230" width="300" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="63730-640x360-tower-bridge-cam-640" translatesAutoresizingMaskIntoConstraints="NO" id="xBo-9c-IzA">
+                                <frame key="frameInset" minX="526" minY="58" width="190" height="119"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="7eh-bA-f9J"/>
-                                    <constraint firstAttribute="width" constant="300" id="Xjv-Zw-Eee"/>
+                                    <constraint firstAttribute="height" constant="100" id="V3x-Yq-eTm"/>
+                                    <constraint firstAttribute="width" constant="150" id="qS3-6b-Gh0"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="0C4D5BF7000005DC-0-image-m-2_1429464283343" translatesAutoresizingMaskIntoConstraints="NO" id="WOa-dy-ElG">
+                                <frame key="frameInset" minX="20" minY="58" width="190" height="119"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="PZL-pk-H7J"/>
+                                    <constraint firstAttribute="width" constant="150" id="vI0-x2-6IM"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="london_night_view_shutterstock_86318047.jpg__5175x2446_q85_crop_upscale" translatesAutoresizingMaskIntoConstraints="NO" id="ZgO-Uf-zLz">
+                                <frame key="frameInset" minX="262" minY="108" width="212" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="3rh-LH-vdx"/>
+                                    <constraint firstAttribute="height" constant="200" id="lmq-RY-DwW"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="iyX-Nl-NWo">
+                                <frame key="frameInset" minX="20" minY="265" width="199" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="6H6-sm-qte"/>
+                                    <constraint firstAttribute="height" constant="100" id="n8r-bT-ebI"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="big-ben" translatesAutoresizingMaskIntoConstraints="NO" id="HTT-Wm-80L">
+                                <frame key="frameInset" minX="507" minY="258" width="199" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="1YS-y8-AHg"/>
+                                    <constraint firstAttribute="width" constant="150" id="cM8-ub-eCd"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="4wL-CJ-CBL" firstAttribute="centerX" secondItem="zaY-To-k5G" secondAttribute="centerX" id="3Gs-hr-1fj"/>
-                            <constraint firstItem="ZgO-Uf-zLz" firstAttribute="top" secondItem="4wL-CJ-CBL" secondAttribute="bottom" constant="60" id="3hk-2V-Wh7"/>
+                            <constraint firstItem="WOa-dy-ElG" firstAttribute="top" secondItem="80c-eb-WCn" secondAttribute="bottom" constant="20" id="ACI-yW-LwG"/>
                             <constraint firstItem="D9z-QC-7Zw" firstAttribute="leading" secondItem="zaY-To-k5G" secondAttribute="leading" id="Adh-vl-fhf"/>
-                            <constraint firstItem="4wL-CJ-CBL" firstAttribute="top" secondItem="80c-eb-WCn" secondAttribute="bottom" constant="40" id="BVb-RH-kC6"/>
                             <constraint firstItem="80c-eb-WCn" firstAttribute="top" secondItem="zaY-To-k5G" secondAttribute="topMargin" constant="14" id="MXS-yL-LDx"/>
+                            <constraint firstItem="WOa-dy-ElG" firstAttribute="leading" secondItem="zaY-To-k5G" secondAttribute="leadingMargin" constant="10" id="MdR-j3-kML"/>
                             <constraint firstItem="D9z-QC-7Zw" firstAttribute="top" secondItem="zaY-To-k5G" secondAttribute="top" constant="10" id="Mhx-tt-2s4"/>
-                            <constraint firstItem="laQ-hi-h7n" firstAttribute="top" secondItem="yfI-nG-KTQ" secondAttribute="bottom" constant="60" id="XtM-a2-A62"/>
-                            <constraint firstItem="yfI-nG-KTQ" firstAttribute="centerX" secondItem="zaY-To-k5G" secondAttribute="centerX" id="Yil-hV-qhK"/>
+                            <constraint firstItem="laQ-hi-h7n" firstAttribute="top" secondItem="iyX-Nl-NWo" secondAttribute="bottom" constant="20" id="OzS-Lt-3Eg"/>
+                            <constraint firstItem="laQ-hi-h7n" firstAttribute="top" secondItem="HTT-Wm-80L" secondAttribute="bottom" constant="20" id="UvL-WH-POW"/>
+                            <constraint firstItem="ZgO-Uf-zLz" firstAttribute="centerX" secondItem="zaY-To-k5G" secondAttribute="centerX" id="fWA-2K-TP1"/>
+                            <constraint firstItem="ZgO-Uf-zLz" firstAttribute="centerY" secondItem="zaY-To-k5G" secondAttribute="centerY" id="j1y-Ig-Xtb"/>
+                            <constraint firstItem="xBo-9c-IzA" firstAttribute="trailing" secondItem="zaY-To-k5G" secondAttribute="trailingMargin" constant="10" id="kHY-HH-eLU"/>
+                            <constraint firstItem="xBo-9c-IzA" firstAttribute="top" secondItem="bKL-Hr-WuT" secondAttribute="bottom" constant="50" id="nu6-dr-xl0"/>
                             <constraint firstItem="80c-eb-WCn" firstAttribute="centerX" secondItem="zaY-To-k5G" secondAttribute="centerX" id="tjl-5K-iFe"/>
-                            <constraint firstItem="ZgO-Uf-zLz" firstAttribute="centerX" secondItem="zaY-To-k5G" secondAttribute="centerX" id="y9T-Co-IE6"/>
+                            <constraint firstItem="iyX-Nl-NWo" firstAttribute="leading" secondItem="zaY-To-k5G" secondAttribute="leadingMargin" constant="10" id="tpD-PQ-QHS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HTT-Wm-80L" secondAttribute="trailing" constant="10" id="yt2-PR-1Jf"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xc8-Wv-Kla" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="993" y="360"/>
+            <point key="canvasLocation" x="992.93478260869585" y="359.4202898550725"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SfW-RV-3C2">
@@ -204,17 +197,11 @@
                         <viewControllerLayoutGuide type="bottom" id="mAh-t2-P7T"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2Ag-mY-lUp">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="o-LONDON-facebook" translatesAutoresizingMaskIntoConstraints="NO" id="7Wq-WL-gRA">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="156"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="169" id="Oq4-hh-I72"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UwN-eg-Qqh" customClass="prettyBtn" customModule="London" customModuleProvider="target">
-                                <rect key="frame" x="206" y="542" width="120" height="38"/>
+                                <frame key="frameInset" minX="123" minY="609" width="124" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="Nzu-j7-VAg"/>
                                     <constraint firstAttribute="width" constant="120" id="p51-kA-NPZ"/>
@@ -222,124 +209,183 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
                                 <state key="normal" title="Home"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Ir8-Bu-CdA"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="Ir8-Bu-CdA"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fOx-hs-tsA">
-                                <rect key="frame" x="20" y="170" width="300" height="375"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="o-LONDON-facebook" translatesAutoresizingMaskIntoConstraints="NO" id="2hc-UG-PNh">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="ezF-y4-zJN"/>
+                                    <constraint firstAttribute="height" constant="107" id="rhb-Rf-4BW"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ezF-y4-zJN"/>
+                                        <exclude reference="rhb-Rf-4BW"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="ezF-y4-zJN"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="rhb-Rf-4BW"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="fOx-hs-tsA">
+                                <frame key="frameInset" minX="37" minY="152" width="716" height="202"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="3iy-hR-bRd">
-                                        <rect key="frame" x="0.0" y="0.0" width="85" height="37"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3iy-hR-bRd">
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="POPULATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chl-IR-5xQ">
-                                                <rect key="frame" x="0.0" y="0.0" width="85" height="16"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8.5 million" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gki-Qc-DLV">
-                                                <rect key="frame" x="0.0" y="21" width="85" height="16"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <variation key="heightClass=compact-widthClass=regular" spacing="5"/>
+                                        <variation key="heightClass=regular-widthClass=compact" spacing="8"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="QbL-Uo-56F">
-                                        <rect key="frame" x="0.0" y="57" width="290" height="53"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QbL-Uo-56F">
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DESCRIPTION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfx-jb-wi2">
-                                                <rect key="frame" x="0.0" y="0.0" width="90" height="16"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="London is the capital and most populous city of England and United Kingdon." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oPl-Su-IKm">
-                                                <rect key="frame" x="0.0" y="21" width="290" height="32"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="64" id="WN2-q9-cfF"/>
-                                        </constraints>
-                                        <variation key="default">
-                                            <mask key="constraints">
-                                                <exclude reference="WN2-q9-cfF"/>
-                                            </mask>
-                                        </variation>
+                                        <variation key="heightClass=compact-widthClass=regular" spacing="4"/>
+                                        <variation key="heightClass=regular-widthClass=compact" spacing="8"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="SLO-CM-jv9">
-                                        <rect key="frame" x="0.0" y="130" width="293" height="158"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SLO-CM-jv9">
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BRIEF HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddi-K7-wKI">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="16"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBb-8P-Vrz">
-                                                <rect key="frame" x="0.0" y="21" width="293" height="137"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBb-8P-Vrz">
                                                 <string key="text">It is thought that London in prehistoric times was merely a collection of scattered rural settlements. Spear heads and weapons from the Bronze and Iron Ages have been found around the Thames, and a recent archaeological dig near Vauxhall discovered evidence of a possible wooden bridge across the Thames around 3,000 years ago!It was the Romans who were responsible for the city we know today as London. </string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <variation key="heightClass=compact-widthClass=regular" spacing="4"/>
+                                        <variation key="heightClass=regular-widthClass=compact" spacing="8"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="7gw-lK-PeC">
-                                        <rect key="frame" x="0.0" y="308" width="281" height="67"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="7gw-lK-PeC">
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THINGS TO DO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baA-CD-wzC">
-                                                <rect key="frame" x="0.0" y="0.0" width="95" height="16"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beckingham Palace , Trafalgur Square , London Eye , Big Ben ,  Madame Tussauds , Hamleys, Westminister , Hyde Park" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0A7-e5-14E">
-                                                <rect key="frame" x="0.0" y="21" width="281" height="46"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <variation key="heightClass=compact-widthClass=regular" spacing="4"/>
+                                        <variation key="heightClass=regular-widthClass=compact" spacing="8"/>
                                     </stackView>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="860-TX-GHO"/>
-                                </constraints>
+                                <variation key="heightClass=compact-widthClass=regular" spacing="5"/>
+                                <variation key="heightClass=regular-widthClass=compact" spacing="25"/>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="fOx-hs-tsA" firstAttribute="top" secondItem="7Wq-WL-gRA" secondAttribute="bottom" constant="30" id="ALQ-ey-Jry"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fOx-hs-tsA" secondAttribute="trailing" constant="100" id="AoA-UE-U8P"/>
-                            <constraint firstItem="mAh-t2-P7T" firstAttribute="top" secondItem="UwN-eg-Qqh" secondAttribute="bottom" constant="10" id="Jpa-SF-k1q"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="7Wq-WL-gRA" secondAttribute="trailing" constant="-20" id="MG8-Vy-fF3"/>
-                            <constraint firstItem="UwN-eg-Qqh" firstAttribute="top" secondItem="fOx-hs-tsA" secondAttribute="bottom" constant="30" id="RPU-0O-9tz"/>
-                            <constraint firstItem="7Wq-WL-gRA" firstAttribute="leading" secondItem="2Ag-mY-lUp" secondAttribute="leadingMargin" constant="-20" id="YJD-T3-Eq7"/>
-                            <constraint firstItem="UwN-eg-Qqh" firstAttribute="centerX" secondItem="2Ag-mY-lUp" secondAttribute="centerX" id="dUI-tw-dXy"/>
-                            <constraint firstItem="fOx-hs-tsA" firstAttribute="leading" secondItem="2Ag-mY-lUp" secondAttribute="leadingMargin" id="qNY-Ix-Dfm"/>
-                            <constraint firstItem="7Wq-WL-gRA" firstAttribute="top" secondItem="2Ag-mY-lUp" secondAttribute="topMargin" id="zDJ-mv-AN4"/>
+                            <constraint firstAttribute="trailing" secondItem="fOx-hs-tsA" secondAttribute="trailing" constant="10" id="1nA-eB-F6v"/>
+                            <constraint firstItem="2hc-UG-PNh" firstAttribute="leading" secondItem="2Ag-mY-lUp" secondAttribute="leading" id="2xG-93-l9u"/>
+                            <constraint firstItem="UwN-eg-Qqh" firstAttribute="centerX" secondItem="2Ag-mY-lUp" secondAttribute="centerX" id="2ye-5I-xoq"/>
+                            <constraint firstAttribute="trailing" secondItem="2hc-UG-PNh" secondAttribute="trailing" id="5jc-vR-Zx0"/>
+                            <constraint firstItem="fOx-hs-tsA" firstAttribute="leading" secondItem="2Ag-mY-lUp" secondAttribute="leading" constant="10" id="8hV-M9-Ayd"/>
+                            <constraint firstItem="mAh-t2-P7T" firstAttribute="top" secondItem="UwN-eg-Qqh" secondAttribute="bottom" constant="10" id="AFk-e2-nYn"/>
+                            <constraint firstItem="fOx-hs-tsA" firstAttribute="top" secondItem="2hc-UG-PNh" secondAttribute="bottom" constant="45" id="AJF-it-Zor">
+                                <variation key="widthClass=regular" constant="10"/>
+                            </constraint>
+                            <constraint firstItem="fOx-hs-tsA" firstAttribute="leading" secondItem="2Ag-mY-lUp" secondAttribute="leading" constant="10" id="Dmn-7X-CXi"/>
+                            <constraint firstAttribute="bottom" secondItem="UwN-eg-Qqh" secondAttribute="bottom" constant="10" id="JNp-nf-Zdj"/>
+                            <constraint firstAttribute="trailing" secondItem="2hc-UG-PNh" secondAttribute="trailing" id="Msf-cR-ZvL"/>
+                            <constraint firstItem="2hc-UG-PNh" firstAttribute="leading" secondItem="2Ag-mY-lUp" secondAttribute="leading" id="NKF-rz-T8M"/>
+                            <constraint firstItem="2hc-UG-PNh" firstAttribute="top" secondItem="2Ag-mY-lUp" secondAttribute="top" id="Nde-Ul-Z9b"/>
+                            <constraint firstAttribute="trailing" secondItem="fOx-hs-tsA" secondAttribute="trailing" constant="10" id="TOX-WE-dVc"/>
+                            <constraint firstItem="2hc-UG-PNh" firstAttribute="top" secondItem="2Ag-mY-lUp" secondAttribute="top" id="WQs-OS-urm"/>
+                            <constraint firstItem="UwN-eg-Qqh" firstAttribute="centerX" secondItem="2Ag-mY-lUp" secondAttribute="centerX" id="tyS-fH-GyP"/>
+                            <constraint firstItem="fOx-hs-tsA" firstAttribute="top" secondItem="2hc-UG-PNh" secondAttribute="bottom" constant="45" id="zEN-XB-SA4">
+                                <variation key="heightClass=regular" constant="20"/>
+                            </constraint>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="RPU-0O-9tz"/>
+                                <exclude reference="2xG-93-l9u"/>
+                                <exclude reference="5jc-vR-Zx0"/>
+                                <exclude reference="Msf-cR-ZvL"/>
+                                <exclude reference="NKF-rz-T8M"/>
+                                <exclude reference="Nde-Ul-Z9b"/>
+                                <exclude reference="WQs-OS-urm"/>
+                                <exclude reference="1nA-eB-F6v"/>
+                                <exclude reference="8hV-M9-Ayd"/>
+                                <exclude reference="AJF-it-Zor"/>
+                                <exclude reference="Dmn-7X-CXi"/>
+                                <exclude reference="TOX-WE-dVc"/>
+                                <exclude reference="zEN-XB-SA4"/>
+                                <exclude reference="AFk-e2-nYn"/>
+                                <exclude reference="2ye-5I-xoq"/>
+                                <exclude reference="JNp-nf-Zdj"/>
+                                <exclude reference="tyS-fH-GyP"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular">
+                            <mask key="constraints">
+                                <include reference="2xG-93-l9u"/>
+                                <include reference="5jc-vR-Zx0"/>
+                                <include reference="Nde-Ul-Z9b"/>
+                                <include reference="1nA-eB-F6v"/>
+                                <include reference="Dmn-7X-CXi"/>
+                                <include reference="zEN-XB-SA4"/>
+                                <include reference="AFk-e2-nYn"/>
+                                <include reference="2ye-5I-xoq"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="Msf-cR-ZvL"/>
+                                <include reference="NKF-rz-T8M"/>
+                                <include reference="WQs-OS-urm"/>
+                                <include reference="8hV-M9-Ayd"/>
+                                <include reference="AJF-it-Zor"/>
+                                <include reference="TOX-WE-dVc"/>
+                                <include reference="JNp-nf-Zdj"/>
+                                <include reference="tyS-fH-GyP"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xOX-g7-Yrt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-339" y="366"/>
+            <point key="canvasLocation" x="30.978260869565219" y="118.84057971014494"/>
         </scene>
     </scenes>
     <resources>
         <image name="0C4D5BF7000005DC-0-image-m-2_1429464283343" width="634" height="351"/>
         <image name="63730-640x360-tower-bridge-cam-640" width="640" height="360"/>
-        <image name="London-95" width="4368" height="2912"/>
         <image name="big-ben" width="1920" height="1200"/>
+        <image name="image" width="2048" height="1356"/>
         <image name="london22" width="1920" height="1080"/>
         <image name="london_night_view_shutterstock_86318047.jpg__5175x2446_q85_crop_upscale" width="5175" height="2446"/>
         <image name="o-LONDON-facebook" width="2000" height="1000"/>
